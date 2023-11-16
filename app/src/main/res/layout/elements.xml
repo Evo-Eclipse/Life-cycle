@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Кнопочка">
+
+    </Button>
+    <TextView
+        android:id="@+id/TV"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/orange">
+
+    </TextView>
+    <EditText
+        android:id="@+id/ET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Любимое число?"
+        android:inputType="number">
+
+    </EditText>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Я котик">
+
+    </CheckBox>
+    <RadioGroup
+        android:id="@+id/RG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Я люблю кофе">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Я люблю круассанчик">
+        </RadioButton>
+    </RadioGroup>
+    <Switch
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Мяу">
+
+    </Switch>
+
+</LinearLayout>
